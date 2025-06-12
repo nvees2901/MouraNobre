@@ -27,7 +27,7 @@ setInterval(carrossel, 3000);
 // ------------------------------------------------------------------------------------------------------------------
 
 function atualizarContador() {
-    const nascimento = new Date(2004, 0, 29); // 29 de janeiro de 2004 (Janeiro é 0)
+    const nascimento = new Date(2024, 6, 9); // 29 de janeiro de 2004 (Janeiro é 0)
     const agora = new Date();
   
     let anos = agora.getFullYear() - nascimento.getFullYear();
